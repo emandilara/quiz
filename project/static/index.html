@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" ng-app='myApp'>
+<head>
+    <meta charset="UTF-8">
+    <title>genevouizz</title>
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.10/angular.min.js" type="text/javascript"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.10/angular-route.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='static/quiz.css' rel='stylesheet'>
+    <script src="static/app.js" type="text/javascript"></script>
+    <script src="static/services.js" type="text/javascript"></script>
+
+    <script src="static/controllers/registerController.js" type="text/javascript"></script>
+    <script src="static/controllers/loginController.js" type="text/javascript"></script>
+    <script src="static/controllers/logoutController.js" type="text/javascript"></script>
+    <script src="static/controllers/quizController.js" type="text/javascript"></script>
+    <script src="static/controllers/userStatisticsController.js" type="text/javascript"></script>
+    <script src="static/controllers/allStatisticsController.js" type="text/javascript"></script>
+    <script src="static/controllers/userBarController.js" type="text/javascript"></script>
+
+    <script src="static/partials/directives/js/quiz-intro.js"></script>
+    <script src="static/partials/directives/js/quiz-game.js"></script>        
+    <script src="static/partials/directives/js/game-statistics.js"></script>
+    <script src="static/partials/directives/js/user-bar.js"></script>
+    <script src="static/partials/directives/js/quiz-description.js"></script>
+    <script src="static/quiz.js"></script>   
+    
+</head>
+    <body>
+        <div class="container">
+            <user-bar></user-bar>
+            <div ng-view></div>
+        </div>
+    </body>
+</html>

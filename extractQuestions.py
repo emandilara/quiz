@@ -3,12 +3,13 @@ import json
 from greek_accentuation.characters import base
 
 category = str(sys.argv[1])
-outputFile = str(sys.argv[2])
+inputFile = str(sys.argv[2])
+outputFile = str(sys.argv[3])
 
 print "Note correct syntax: python extractQuestions.py category outputFile"
 print "Please remember that the input file must end with \'.json\', defined in the run arguments."
 
-with open("orchidees.txt", "r") as myfile:
+with open(inputFile, "r") as myfile:
     qExtractedArray = []
     data = myfile.read().replace("(", "").replace("\n", "").split(")")
     for i in range(0, len(data)-1):

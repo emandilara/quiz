@@ -1,0 +1,48 @@
+<div class="section">
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3">
+			<ul class="nav nav-pills">
+				<li style="float:left;"><a>{{category | uppercase}}</a></li>
+		  		<li style="float:right;"><a href="/api/username">{{user}}</a></li>
+		  		<li class="active" style="float:right;"><a>{{correctAnswersCounter*100}}</a></li>
+			</ul>
+		</div>
+	</div>
+	<br/>
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3">
+			<div class="panel" ng-show="questionsFetched">
+			  	<div class="panel-heading question" ng-style="questionStyle">
+			  		<h2>{{question}}</h2>
+			  	</div>
+			  	<div class="panel-body">
+		        	<div class="row">
+			  			<div class="col-sm-12 col-md-12 col-lg-6">
+			        		<button type="button" class="btn btn-default answers" onclick='commitAnswer(0)' ng-style="answers.styles[0]" ng-disabled="answers.disabled[0]">{{questionAnswers[0]}}</button>
+			        	</div>
+			        	<div class="col-sm-12 col-md-12 col-lg-6">
+			        		<button type="button" class="btn btn-default answers" onclick='commitAnswer(1)' ng-style="answers.styles[1]" ng-disabled="answers.disabled[1]">{{questionAnswers[1]}}</button>
+			        	</div>
+		        	</div>
+		        	<div class="row">
+			  			<div class="col-sm-12 col-md-12 col-lg-6">
+			        		<button type="button" class="btn btn-default answers" onclick='commitAnswer(2)' ng-style="answers.styles[2]" ng-disabled="answers.disabled[2]">{{questionAnswers[2]}}</button>
+			        	</div>
+						<div class="col-sm-12 col-md-12 col-lg-6">
+			        		<button type="button" class="btn btn-default answers" onclick='commitAnswer(3)' ng-style="answers.styles[3]" ng-disabled="answers.disabled[3]">{{questionAnswers[3]}}</button>
+			        	</div>		   
+			       	</div>
+		     	</div>
+		     </div>
+	    </div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3">
+			<div class="progress">
+				<div class="progress-bar" role="progressbar" aria-valuenow="50"
+					 aria-valuemin="0" aria-valuemax="100" ng-style="progressBarStyle">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

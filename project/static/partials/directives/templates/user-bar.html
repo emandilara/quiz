@@ -1,0 +1,27 @@
+<div class="row">
+	<div class="col-sm-8 col-sm-offset-2" style="font-family: 'Sofia'; text-align:center; color: #00BCD4;">
+
+		<div ng-controller="registerController" ng-hide="loggedUser" style="float:right; padding-left:20px;">
+			<h4><a href="#/register">Register</a></h4>
+		</div>
+		<div ng-controller="loginController" ng-hide="loggedUser"  style="float:right;">
+			<h4><a href="#/login">Login</a></h4>
+		</div>
+		<div ng-controller="logoutController" ng-show="loggedUser"  style="float:right; padding-left:20px;">
+			<h4><a ng-click='logout()'>Logout</a></h4>
+		</div>
+
+		<div ng-show="loggedUser" style="float:right; padding-left:20px;">
+			<h4><a href="#/all-time-statistics">All statistics</a></h4>
+		</div>
+
+        <div ng-show="loggedUser" style="float:right; padding-left:20px;">
+            <h4><a href="#/user-statistics">User statistics</a></h4>
+        </div>
+
+        <div ng-show="loggedUser" style="float:right">
+            <h4><a href="#/home">Quiz</a></h4>
+        </div>
+	</div>
+</div>
+<hr/>

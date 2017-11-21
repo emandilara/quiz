@@ -1,0 +1,18 @@
+<div class="section">
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3">
+			<h1>Game Over!</h1>
+			<h3>Your score is {{correctAnswersCounter*100}} points!</h3>
+			<h4>Accuracy {{Math.round(correctAnswersCounter*100/questionsNumber)}}% | Total questions {{questionsNumber}} | Correct answers {{correctAnswersCounter}} | Wrong answers {{questionsNumber - correctAnswersCounter}}</h4>
+
+			<h3 ng-style="gameOverStyle">{{gameOverMessage}} {{user}}</h3>
+
+			<div id="highContainer"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3" style="text-align:center; padding-top:25px">
+			<a href="#/home" class="btn" ng-click='restartQuiz()' style="font-family: 'Sofia';">Play again?</a>
+		</div>
+	</div>
+</div>

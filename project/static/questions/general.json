@@ -1,0 +1,174 @@
+{
+	"questions": [
+		{
+			"id": 0,
+			"question": "Πού ζει η Ελένη;",
+			"answers": ["Ανταρκτική", "Ελβετία", "Γαλλία", "Ολλανδία"],
+			"correctAnswer": 2,
+			"image": "static/questions/images/general1/q0.jpg"
+		},
+		{
+			"id": 1,
+			"question": "Ποια είναι η υψηλότερη κορυφή των Άλπεων;",
+			"answers": ["Το Matterhorn", "O Λόφος του Στρέφη", "Ο Όλυμπος", "Το Mont Blanc"],
+			"correctAnswer": 3,
+			"image": "static/questions/images/general1/q1.jpg"
+		},
+		{
+			"id": 2,
+			"question": "What is the capital of Switzerland?",
+			"answers": ["Zurich", "Geneva", "Bern", "Basel"],
+			"correctAnswer": 2,
+			"image": "static/questions/images/general1/q2.jpg"
+		},
+		{
+			"id": 3,
+			"question": "How many submarines have explored Lac Léman (lake of Geneva)?",
+			"answers": ["1", "4", "29", "0"],
+			"correctAnswer": 1,
+			"image": "static/questions/images/general1/q3.jpg"
+		},
+		{
+			"id": 4,
+			"question": "What is the name of the lake of Geneva for French people?",
+			"answers": ["Lac de la Griaz", "Lac des Rousses", "Lac d'Annecy", "Lac Léman"],
+			"correctAnswer": 3,
+			"image": "static/questions/images/general1/q4.jpg"
+		},
+		{
+			"id": 5,
+			"question": "Γιατί είναι βρώμικος ο Arve ενώ ο Rhône είναι καθαρός;",
+			"answers": ["Γιατί μπορεί.", "Ο Arve έρχεται από τη Γαλλία ενώ ο Rhône από την Ελβετία", "Το υδροηλεκτρικό εργοστάσιο της Γενεύης ρίχνει σε αυτόν τα λύματά του μετά από αντίστοιχη συμφωνία με τις Γαλλικές αρχές", "Γιατί έτσι τον αγόρασαν από το βρώμικο στο Σταθμό Λαρίσης"],
+			"correctAnswer": 3,
+			"image": "static/questions/images/general1/q5.jpg"
+		},
+		{
+			"id": 6,
+			"question": "Ποιο είναι η νούμερο 1 αιτία για τις καταγγελίες στην αστυνομία της Γενεύης;",
+			"answers": ["Πολλή φασαρία τα σαββατόβραδα στο Plainpalais", "Απεκκρίματα σκύλων", "Πολλή ησυχία ρε παιδιά..", "Θορυβώδεις σωληνώσεις"],
+			"correctAnswer": 1,
+			"image": "static/questions/images/general1/q6.jpg"
+		},
+		{
+			"id": 7,
+			"question": "Προς ποια κατεύθυνση πρέπει να κοιτάξεις από την κορυφή του Saleve για να δεις τη Γενεύη;",
+			"answers": ["Βόρεια", "Ανατολικά", "Νότια", "Δυτικά"],
+			"correctAnswer": 0,
+			"image": "static/questions/images/general1/q7.jpg"
+		},
+		{
+			"id": 8,
+			"question": "Ποια είναι τα δύο ποτάμια της Γενεύης;",
+			"answers": ["Limmat and Sihl", "Rhône and Arve", "Meuse and Rhine", "Seine and Loire"],
+			"correctAnswer": 1,
+			"image": "static/questions/images/general1/q8.jpg"
+		},
+		{
+			"id": 9,
+			"question": "Σε ποια περιοχή της Γενεύης θα βρεις τα περισσότερα καφέ και μπαρ;",
+			"answers": ["Vieille ville", "Eaux Vives", "Plainpalais", "Carouge"],
+			"correctAnswer": 2,
+			"image": "static/questions/images/general1/q9.jpg"
+		},
+		{
+			"id": 10,
+			"question": "Πού οδηγεί αυτός ο δρόμος;",
+			"answers": ["Route 66, Grand Canyon, U.S.A.", "Dettifoss waterfall, Iceland", "573 Rue de l'Etraz, Thoiry", "Στη Ρώμη"],
+			"correctAnswer": 2,
+			"image": "static/questions/images/general1/q10.jpg"
+		},
+		{
+			"id": 11,
+			"question": "Υπάρχει Ελβετική εταιρεία κατασκευής αυτοκινήτων;",
+			"answers": ["Ναι, η Sbarro", "Ναι, η Zwei", "Ναι, η Trigoni", "Όχι καμία"],
+			"correctAnswer": 0,
+			"image": "static/questions/images/general1/q11.jpg"
+		},
+		{
+			"id": 12,
+			"question": "Ποιες είναι οι επίσημες γλώσσες της Ελβετίας;",
+			"answers": ["Γερμανική, Γαλλική και Ιταλική", "Γερμανική, Γαλλική, Ιταλική και Ρομανσική", "Γερμανική, Γαλλική, Ιταλική και Αγγλική", "Γερμανική, Γαλλική, Ιταλική και Ρουμανική"],
+			"correctAnswer": 1,
+			"image": "static/questions/images/general1/q12.jpg"
+		},
+		{
+			"id": 13,
+			"question": "Με ποιο ελληνικό προϊόν σχετίζεται το χωριό Gruyères;",
+			"answers": ["Με το σήμα του Κοργιαλένειου-Μπενάκειου νοσοκομείου", "Με την τράπεζα Κύπρου", "Με τη σοκολάτα ΙΟΝ", "Με τη Γραβιέρα"],
+			"correctAnswer": 3,
+			"image": "static/questions/images/general1/q13.jpg"
+		},
+		{
+			"id": 14,
+			"question": "Η πρώτη σοκολάτα γάλακτος παρασκευάστηκε από τον Daniel Peter σε συνεργασία με τον Henri Nestlé, το  1875. Πώς ονομάστηκε;",
+			"answers": ["Milk Peter", "Gala Peter", "Lait Peter", "Milch Peter"],
+			"correctAnswer": 1,
+			"image": "static/questions/images/general1/q14.jpg"
+		},
+		{
+			"id": 15,
+			"question": "Ποιος από τους παρακάτω χαρακτήρες κόμιξ, δημιουργήθηκε από τον Ελβετό κομίστα Zep;",
+			"answers": ["Die Biene Maja", "Titeuf", "Oumpah-pah", "Lupo Alberto"],
+			"correctAnswer": 1,
+			"image": "static/questions/images/general1/q15.jpg"
+		},
+		{
+			"id": 16,
+			"question": "Ποιο είναι το βουνό κάτω από τα σύννεφα που συνήθως μας κρύβει τις Άλπεις;",
+			"answers": ["Jura", "Mont Parnasse", "Salève", "Παρνασσός ο Σκοτεινός"],
+			"correctAnswer": 2,
+			"image": "static/questions/images/general1/q16.jpg"
+		},
+		{
+			"id": 17,
+			"question": "Ποιο από τα παρακάτω δεν είναι χαρακτηριστικό των ρολογιών του ελβετικού σιδηρόδρομου;",
+			"answers": ["Ο δευτερολεπτοδείκτης σταματάει για λίγο όταν δείχνει το 12, προκειμένου όλα τα ρολόγια των σταθμών να συντονιστούν", "Ο δευτερολεπτοδείκτης έχει χρώμα κόκκινο, χαρακτηριστικό της ελβετικής σημαίας", "Ο δευτερολεπτοδείκτης είναι πιο λεπτός από τους άλλους δείκτες και έχει το ίδιο χρώμα με τους άλλους", "Ο δευτερολεπτοδείκτης έχει ένα μεγάλο κόκκινο στρογγυλό στην άκρη, θυμίζοντας το σήμα του σταθμάρχη για στάση"],
+			"correctAnswer": 2,
+			"image": "static/questions/images/general1/q17.jpg"
+		},
+		{
+			"id": 18,
+			"question": "Πόσο κάνει 4 φορές το 20 στο Saint Genis;",
+			"answers": ["huitante", "soixante-vingt", "quatre-vingt", "deux-quarante"],
+			"correctAnswer": 2,
+			"image": "static/questions/images/general1/q18.jpg"
+		},
+		{
+			"id": 19,
+			"question": "Ποια γραμμική εξίσωση πρώτου βαθμού πρέπει να λύσεις για να πεις 97 στη Γαλλία;",
+			"answers": ["90+5+2.5-1/2", "4x20+10+7", "60+30+7", "4x20+12+5"],
+			"correctAnswer": 1,
+			"image": "static/questions/images/general1/q19.jpg"
+		},
+		{
+			"id": 20,
+			"question": "Πόσο κάνει 4 φορές το 20 στη Γενεύη;",
+			"answers": ["quatre-vingt", "huitante", "ogdonte", "deux-quarante"],
+			"correctAnswer": 1,
+			"image": "static/questions/images/general1/q20.jpg"
+		},
+		{
+			"id": 21,
+			"question": "Ήρθε η στιγμή να πέσει αυτή η ερώτηση επομένως και η ώρα να δούμε λίγο My Style Rocks!",
+			"answers": ["Όχιιιιιι", "Για βασανιστήρια ήρθαμε;", "Τέλεια!!!", "B for bad idea."],
+			"correctAnswer": 2,
+			"image": "static/questions/images/general1/q21.jpg"
+		},
+		{
+			"id": 21,
+			"question": "Ήρθε η στιγμή να πέσει αυτή η ερώτηση επομένως και η ώρα να δούμε λίγο My Style Rocks!",
+			"answers": ["Όχιιιιιι", "Για βασανιστήρια ήρθαμε;", "Τέλεια!!!", "B for bad idea."],
+			"correctAnswer": 2,
+			"image": "static/questions/images/general1/q21.jpg"
+		},
+		{
+			"id": 22,
+			"question": "Τι είναι αυτή η εικόνα;",
+			"answers": ["Εξώφυλλο από δίσκο των Pink Floyd", "Πρωινή εικόνα στο Thoiry", "Διαφήμιση της Nestlé", "Η καλή μας αγελάδα τρώει κάτω στη λιακάδα​ μικρά χόρτα και μεγάλα​ ​για να κατεβάσει γάλα! Να το κάνουμε τυράκι να το κάνουν βουτυράκι να το βάλουνε στο πιάτο να σου πουν ορίστε φά'το! Καλή φάση"],
+			"correctAnswer": 1,
+			"image": "static/questions/images/general1/q22.jpg"
+		}
+
+
+	]
+}

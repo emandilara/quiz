@@ -1,0 +1,71 @@
+body {
+    background: lavenderblush;
+}
+h1, h2, h3, h4, p, .answers, .question, .nav.nav-pills {
+  font-family: 'Sofia';
+  text-align:center;
+  /* color: #00BCD4 */
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background: transparent;
+  border: #337ab7 dashed 0.5px;
+  color: #337ab7;
+  font-weight: bold;
+}
+
+span {
+    /* style this span element so we can display nicely, this stlying is not neccessary */
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.panel{
+  background: lavenderblush;
+}
+.answers{
+  width:100%;
+  height:170px;
+  text-align: center;
+  word-break:break-all;
+  white-space:normal !important;
+  max-width:100%;
+  background: rgb(124, 176, 220)  color: black;
+}
+
+.answers:hover{
+  background: rgb(109, 146, 199);
+  color: white;
+}
+
+.question{
+  height:300px;
+  background:#c708c7;
+  color: white;
+  display:flex;
+  background-size: 100% 100%;
+}
+.question h2{
+  align-self: flex-end;
+  background: #08080880;
+  /*font-size: 6vw;*/
+}
+.category-buttons{
+  width:100%;
+  height:250px;
+  background-size: 100% 100%;
+  color: white;
+  font-size: 2.5vw;
+}
+
+.mycontent-left {
+  padding-right: 100px;
+  border-right: 1px dashed #00BCD4;
+}
+/*
+.mycontent-right {
+  padding-left: 100px;
+  border-left: 1px dashed #00BCD4;
+}*/
